@@ -23,6 +23,15 @@
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
+    <PreferenceCategory
+        android:title="@string/navbar_category">
+        <com.statix.android.settings.SecureSettingSwitchPreference
+            android:key="navigation_bar_hint"
+            android:title="@string/show_navbar_gesture_bar_title"
+            android:summary="@string/show_navbar_gesture_bar_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
     <com.android.settingslib.PrimarySwitchPreference
         android:fragment="com.statix.android.settings.gestures.SwipeGesturePreferenceFragment"
         android:key="swipe_gesture_picker"
