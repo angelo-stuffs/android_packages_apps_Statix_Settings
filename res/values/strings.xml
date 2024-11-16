@@ -104,21 +104,20 @@
     <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_state_title">Network traffic indicator</string>
-    <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
-    <string name="network_traffic_title">Network traffic indicator</string>
-    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
-    <string name="network_options_title">Options</string>
-    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
-    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+    <string name="network_traffic_state_title">Indicador de tráfego de rede</string>
+    <string name="network_traffic_state_summary">Habilitar ou desabilitar o indicador de velocidade da rede na barra de status</string>
+    <string name="network_traffic_title">Indicador de tráfego de rede</string>
+    <string name="network_traffic_master_switch_title">Usar Indicador de Tráfego de Rede</string>
+    <string name="network_options_title">Opções</string>
+    <string name="network_traffic_autohide_title">Ocultar indicador de tráfego de rede se inativo</string>
+    <string name="network_traffic_autohide_summary">Ocultar quando o indicador de tráfego de rede estiver abaixo de 1 KB/s</string>
 
     <!-- Navigation bar hint -->
-    <string name="navbar_category">Navigation bar</string>
-    <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
-    <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
-
+    <string name="navbar_category">Barra de navegação</string>
+    <string name="show_navbar_gesture_bar_title">Indicador de gestos</string>
+    <string name="show_navbar_gesture_bar_summary">Mostrar indicador de gestos na parte inferior da tela</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_title">Toque para desligar</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status ou na tela de bloqueio para desligar</string>
 
 </resources>
