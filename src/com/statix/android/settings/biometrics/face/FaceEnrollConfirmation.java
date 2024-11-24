@@ -11,7 +11,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import androidx.fragment.app.FragmentActivity;
-import androidx.window.R;
+
+import com.android.settings.R;
 
 import com.google.android.setupcompat.template.FooterBarMixin;
 import com.google.android.setupcompat.template.FooterButton;
