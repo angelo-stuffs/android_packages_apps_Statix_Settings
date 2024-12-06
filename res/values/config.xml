@@ -50,9 +50,6 @@
     <!-- Whether to initiate Account login during Private Space setup.-->
     <bool name="config_privatespace_account_login_enabled">true</bool>
 
-    <!-- Whether to show Keyboard vibration settings in the vibration and haptics screen. -->
-    <bool name="config_keyboard_vibration_supported">true</bool>
-
     <!-- Whether or not homepage should display user's account avatar -->
     <bool name="config_show_avatar_in_homepage">true</bool>
 
