@@ -98,14 +98,14 @@
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
         android:icon="@drawable/ic_settings_network_traffic"
-        android:order="35"
+        android:order="20"
         android:summary="@string/network_traffic_state_summary"
         android:defaultValue="false" />
 
     <com.android.settings.network.PrivateDnsModeDialogPreference
         android:key="private_dns_settings"
         android:title="@string/select_private_dns_configuration_title"
-        android:order="20"
+        android:order="25"
         android:dialogTitle="@string/select_private_dns_configuration_dialog_title"
         android:dialogLayout="@layout/private_dns_mode_dialog"
         android:positiveButtonText="@string/save"
@@ -116,13 +116,13 @@
         android:key="adaptive_connectivity"
         android:title="@string/adaptive_connectivity_title"
         android:summary="@string/summary_placeholder"
-        android:order="25"
+        android:order="30"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
 
     <Preference
         android:key="cellular_security_network_internet"
         android:title="@string/cellular_security_title"
         android:summary="@string/cellular_security_summary"
-        android:order="30"
+        android:order="35"
         settings:controller="com.android.settings.network.CellularSecurityPreferenceController"/>
 </PreferenceScreen>
